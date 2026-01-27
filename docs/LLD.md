@@ -441,7 +441,7 @@ using (var scope = app.Services.CreateScope())
   - Location: `RetailMonolith.Tests/Integration/CheckoutServiceTests.cs`
   - Uses: In-memory EF Core database + Moq for `IPaymentGateway`
   - Coverage: Payment success/failure, inventory decrement, cart clearing, validation
-  - **Notable**: Test `CheckoutAsync_FailedPayment_StillDecrementsInventory` documents the known inventory-payment bug (lines 207-234)
+  - **Notable**: Test `CheckoutAsync_FailedPayment_StillDecrementsInventory` documents the known inventory-payment bug in CheckoutService
 
 **E2E Tests**:
 - `HealthCheckTests` (2 tests): Application startup and dependency injection validation
@@ -450,7 +450,7 @@ using (var scope = app.Services.CreateScope())
 
 ### Test Infrastructure
 - **TestDbContextFactory** (`RetailMonolith.Tests/Helpers/TestDbContextFactory.cs`): Creates in-memory DbContext with test data seeding
-- **Test Data**: Seeded products (TEST-001, TEST-002) with inventory (100 units each)
+- **Test Data**: Seeded products (TEST-001 @ £10, TEST-002 @ £20, TEST-003 @ £30) with inventory (100, 50, and 25 units respectively). TEST-003 is marked as inactive.
 
 ### Test Gaps
 

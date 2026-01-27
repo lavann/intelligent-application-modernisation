@@ -212,7 +212,7 @@ dotnet test --list-tests
 - **coverlet.collector** (6.0.4): Code coverage
 
 **Test Helpers**:
-- `RetailMonolith.Tests/Helpers/TestDbContextFactory.cs`: Creates in-memory DbContext for tests
+- `RetailMonolith.Tests/Helpers/TestDbContextFactory.cs`: Creates in-memory DbContext with test data seeding (3 products: TEST-001, TEST-002, TEST-003 with varying inventory quantities)
 
 ---
 
