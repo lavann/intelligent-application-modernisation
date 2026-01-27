@@ -163,22 +163,56 @@ ConnectionStrings__DefaultConnection="Server=myserver;Database=RetailMonolith;..
 
 ## Test Commands
 
-### Run Tests
+### Run All Tests
 ```bash
 dotnet test
 ```
 
-**Current Status**: No test projects found in solution (`RetailMonolith.sln`).
+**Test Project**: `RetailMonolith.Tests/RetailMonolith.Tests.csproj`
 
 **Expected Output**:
 ```
-No test projects found.
+Test Run Successful.
+Total tests: 21
+     Passed: 21
+ Total time: 1.7287 Seconds
 ```
 
-**To Add Tests**:
-1. Create test project: `dotnet new xunit -n RetailMonolith.Tests`
-2. Add reference: `dotnet add RetailMonolith.Tests reference RetailMonolith.csproj`
-3. Add to solution: `dotnet sln add RetailMonolith.Tests/RetailMonolith.Tests.csproj`
+**Test Coverage**:
+- **Integration Tests** (19 tests):
+  - `CartServiceTests` (10 tests): Cart creation, adding items, clearing cart
+  - `CheckoutServiceTests` (9 tests): Payment flow, inventory decrement, order creation, error handling
+- **E2E Tests** (2 tests):
+  - `HealthCheckTests`: Application startup and dependency resolution
+
+### Run Specific Test Class
+```bash
+dotnet test --filter "FullyQualifiedName~CartServiceTests"
+dotnet test --filter "FullyQualifiedName~CheckoutServiceTests"
+```
+
+### Run with Detailed Output
+```bash
+dotnet test --logger "console;verbosity=detailed"
+```
+
+### List Available Tests
+```bash
+dotnet test --list-tests
+```
+
+### Test Infrastructure
+
+**Test Project Dependencies** (from `RetailMonolith.Tests.csproj`):
+- **xUnit** (2.9.3): Test framework
+- **Microsoft.AspNetCore.Mvc.Testing** (9.0.9): WebApplicationFactory for E2E tests
+- **Microsoft.EntityFrameworkCore.InMemory** (9.0.9): In-memory database for integration tests
+- **Moq** (4.20.72): Mocking framework for IPaymentGateway
+- **Microsoft.NET.Test.Sdk** (17.14.1): Test execution
+- **coverlet.collector** (6.0.4): Code coverage
+
+**Test Helpers**:
+- `RetailMonolith.Tests/Helpers/TestDbContextFactory.cs`: Creates in-memory DbContext with test data seeding (3 products: TEST-001, TEST-002, TEST-003 with varying inventory quantities)
 
 ---
 
@@ -424,12 +458,19 @@ if (app.Environment.IsDevelopment())
 
 ---
 
-### No Tests
-**Risk**: No automated tests exist.
+### Limited Test Coverage
+**Risk**: Tests exist for service layer but Razor Pages lack direct tests.
 
-**Impact**: Code changes cannot be validated automatically.
+**Current Coverage**:
+- ✅ `CartService` (10 integration tests)
+- ✅ `CheckoutService` (9 integration tests, including known bug documentation)
+- ✅ Application startup (2 E2E tests)
+- ❌ Razor Pages (not tested)
+- ❌ Minimal APIs (not tested)
 
-**Recommendation**: Add unit tests for `CartService` and `CheckoutService`, integration tests for Razor Pages.
+**Impact**: UI-layer bugs may not be caught before deployment.
+
+**Recommendation**: Add integration tests for Razor Pages using `WebApplicationFactory`, add API endpoint tests.
 
 ---
 
@@ -454,7 +495,7 @@ Before deploying to production, address these issues:
 - [ ] **Enable HTTPS** with valid certificate (not self-signed)
 - [ ] **Add logging and monitoring** (Application Insights, Serilog, etc.)
 - [ ] **Add health check endpoint** (expose `/health` in routing)
-- [ ] **Add automated tests** (unit, integration, E2E)
+- [ ] **Expand test coverage** (add Razor Pages tests, Minimal API tests)
 - [ ] **Review security** (SQL injection, XSS, CSRF protection)
 
 ---
