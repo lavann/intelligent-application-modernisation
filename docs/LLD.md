@@ -419,6 +419,7 @@ using (var scope = app.Services.CreateScope())
 | **Total Minimal APIs** | 2 (POST /api/checkout, GET /api/orders/{id}) | Low |
 | **Database Migrations** | 1 (Initial) | Low |
 | **External Dependencies** | 1 (MockPaymentGateway, simulated) | Low |
+| **Test Projects** | 1 (RetailMonolith.Tests, 21 tests) | Medium |
 | **Direct DbContext Access** | 5 locations (Products, Orders pages, Minimal APIs) | **High (anti-pattern)** |
 | **Coupling Hotspots** | 5 major issues identified | **High** |
 
@@ -426,18 +427,39 @@ using (var scope = app.Services.CreateScope())
 
 ## Testing Considerations
 
-### Testable Components
-- `CartService` (isolated, depends only on DbContext)
-- `CheckoutService` (requires mocked `IPaymentGateway` and DbContext)
+### Existing Test Coverage
 
-### Difficult to Test
-- Razor Pages with direct `AppDbContext` dependencies (require database integration tests)
-- Minimal API lambdas in `Program.cs` (require full application host)
+**Test Project**: `RetailMonolith.Tests/` (xUnit, 21 tests total)
 
-### Missing Test Infrastructure
-- No test projects found in solution
-- No test data builders or fixtures
-- No integration test harness
+**Integration Tests**:
+- `CartServiceTests` (10 tests): Comprehensive coverage of cart operations
+  - Location: `RetailMonolith.Tests/Integration/CartServiceTests.cs`
+  - Uses: In-memory EF Core database (`TestDbContextFactory`)
+  - Coverage: Create cart, add items, duplicate SKU handling, clear cart, error scenarios
+
+- `CheckoutServiceTests` (9 tests): End-to-end checkout flow validation
+  - Location: `RetailMonolith.Tests/Integration/CheckoutServiceTests.cs`
+  - Uses: In-memory EF Core database + Moq for `IPaymentGateway`
+  - Coverage: Payment success/failure, inventory decrement, cart clearing, validation
+  - **Notable**: Test `CheckoutAsync_FailedPayment_StillDecrementsInventory` documents the known inventory-payment bug (lines 207-234)
+
+**E2E Tests**:
+- `HealthCheckTests` (2 tests): Application startup and dependency injection validation
+  - Location: `RetailMonolith.Tests/E2E/HealthCheckTests.cs`
+  - Uses: `WebApplicationFactory` for full application hosting
+
+### Test Infrastructure
+- **TestDbContextFactory** (`RetailMonolith.Tests/Helpers/TestDbContextFactory.cs`): Creates in-memory DbContext with test data seeding
+- **Test Data**: Seeded products (TEST-001, TEST-002) with inventory (100 units each)
+
+### Test Gaps
+
+**Not Covered**:
+- Razor Pages (Products, Cart, Checkout, Orders) — no page model tests
+- Minimal APIs (`POST /api/checkout`, `GET /api/orders/{id}`) — no endpoint tests
+- Direct `AppDbContext` usage in Pages (coupling not validated by tests)
+- UI rendering and form validation
+- Concurrent access scenarios (race conditions)
 
 ---
 
