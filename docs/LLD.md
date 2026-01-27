@@ -450,7 +450,7 @@ using (var scope = app.Services.CreateScope())
 
 ### Test Infrastructure
 - **TestDbContextFactory** (`RetailMonolith.Tests/Helpers/TestDbContextFactory.cs`): Creates in-memory DbContext with test data seeding
-- **Test Data**: Seeded products (TEST-001 @ £10, TEST-002 @ £20, TEST-003 @ £30) with inventory (100, 50, and 25 units respectively). TEST-003 is marked as inactive.
+- **Test Data**: Seeded products (TEST-001 @ 10.00 GBP, TEST-002 @ 20.00 GBP, TEST-003 @ 30.00 GBP) with inventory (100, 50, and 25 units respectively). TEST-003 is marked as inactive.
 
 ### Test Gaps
 
