@@ -1,158 +1,70 @@
-﻿# Retail Monolith App
+# Intelligent Application Modernisation
 
-A lightweight ASP.NET Core 9 Razor Pages application that simulates a retail monolith before decomposition.  
-It includes product listing, shopping cart, checkout, and inventory management — built to demonstrate modernisation and refactoring patterns.
+**Agents, skills and a worked example for teams modernising applications with AI assistance.**
 
----
+Author: **Lavan Nallainathan** · [MIT licence](LICENSE) · [January 2026 provenance](PROVENANCE.md)
 
-## Features
+This pack connects system discovery, migration planning, testing, programme governance and implementation. Each agent has a defined job, supporting procedures, expected outputs and a human review gate. Teams can use the whole sequence or adopt one role at a time.
 
-- ASP.NET Core 9 (Razor Pages)
-- Entity Framework Core (SQL Server LocalDB)
-- Dependency Injection with modular services:
-  - `CartService`
-  - `CheckoutService`
-  - `MockPaymentGateway`
-- 50 sample seeded products with random inventory
-- End-to-end retail flow:
-  - Products → Cart → Checkout → Orders
-- Minimal APIs:
-  - `POST /api/checkout`
-  - `GET /api/orders/{id}`
-- Health-check endpoint at `/health`
-- Ready for decomposition into microservices
+The original agents and skills were recorded in January 2026 in [ads_monolith_agents_skills_270126](https://github.com/lavann/ads_monolith_agents_skills_270126). This repository preserves that Git history and makes the pack, worked outputs and adoption guidance easier to find. The original agent and skill files are unchanged. See [Provenance](PROVENANCE.md) for exact commits and the distinction between the original work and this November 2026 publication.
 
----
+## Start here
 
-## 🏠 Home Page
-![Home Page Screenshot](https://github.com/lavann/ads_monotlith_app/blob/main/Images/HomePage.jpg)
+| What you want to do | Start with |
+| --- | --- |
+| Understand the approach and run your first agent | [Usage guide](guides/usage.md) |
+| Explore the application, reports and tests | [Worked retail example](guides/worked-example.md) |
+| Introduce the approach to a delivery team | [Team adoption guide](guides/team-adoption.md) |
+| Check the origin, attribution and original versions | [Provenance and source history](PROVENANCE.md) |
+| Browse the generated example deliverables | [Worked outputs index](docs/README.md) |
 
-## 🛍 Products
-![Products Screenshot](https://github.com/lavann/ads_monotlith_app/blob/main/Images/Products.jpg)
+## The agent pack
 
-## 🧺 Cart
-![Cart Screenshot](https://github.com/lavann/ads_monotlith_app/blob/main/Images/Cart.jpg)
+| Agent | What it does | Main outputs |
+| --- | --- | --- |
+| [Documentation](.github/agents/documentation.agent.md) | Establishes what the existing system actually does. | HLD, LLD, ADRs and runbook |
+| [Modernisation](.github/agents/modernisation.agent.md) | Plans an incremental, reversible migration. | Target architecture, migration plan and decision records |
+| [Testing](.github/agents/testing.agent.md) | Establishes a safety net around current behaviour. | Test strategy, automated tests and CI |
+| [Intelligent Migration](.github/agents/intelligent-migration.agent.md) | Connects the technical plan to delivery, governance and economics. | Programme plan, team model, risk/governance and ROI model |
+| [Implementation](.github/agents/implementation.agent.md) | Implements one approved migration slice at a time. | Reviewed code, tests, documentation and rollback evidence |
 
-## 💳 Checkout
-![Checkout Screenshot](https://github.com/lavann/ads_monotlith_app/blob/main/Images/CheckOut.jpg)
+The five supporting [skills](.github/skills) cover [system discovery](.github/skills/system-discovery.skill.md), [architecture reasoning](.github/skills/architecture-reasoning.skill.md), [test synthesis](.github/skills/test-synthesis.skill.md), [intelligent migration](.github/skills/intelligent-application-migration.skill.md) and [incremental refactoring](.github/skills/incremental-refactoring.skill.md).
 
-## 📦 Orders
-![Orders Screenshot](https://github.com/lavann/ads_monotlith_app/blob/main/Images/Orders.jpg)
+These are the original Markdown procedures referenced by the agents. They retain their January `*.skill.md` format; do not assume they will be discovered as modern `SKILL.md` packages. The [usage guide](guides/usage.md) explains how to supply them explicitly and records a historical metadata mismatch.
 
-## 📦 Order Details
-![Orders Screenshot](https://github.com/lavann/ads_monotlith_app/blob/main/Images/OrderDetails.jpg)
+## Try the worked example
 
----
+The repository root contains the original .NET 9 retail monolith, its tests, and the agent-produced documents. Keeping the original layout preserves the agents' `.github/` and `/docs/` references.
 
-## Development Setup
-
-You can run and edit this application in three different ways:
-
-### 1. Local Development Environment
-
-Run the application directly on your local machine with your preferred IDE or editor.
-
-**Prerequisites:**
-- .NET 9 SDK installed ([download](https://dotnet.microsoft.com/download/dotnet/9.0))
-- SQL Server LocalDB (included with Visual Studio) or SQL Server instance
-- Your favorite code editor (Visual Studio, VS Code, Rider, etc.)
-
-**Steps:**
-```bash
-git clone https://github.com/lavann/ads_monotlith_app.git
-cd ads_monotlith_app
-dotnet restore
-dotnet ef database update
-dotnet run
+```sh
+git clone https://github.com/lavann/intelligent-application-modernisation.git
+cd intelligent-application-modernisation
+dotnet test RetailMonolith.sln --configuration Release
 ```
 
-### 2. Docker-Hosted Dev Container
+The automated tests use an in-memory database and do not need SQL Server. Running the application itself needs SQL Server or Windows SQL Server LocalDB; follow the [worked-example instructions](guides/worked-example.md).
 
-Use a Docker container with a pre-configured development environment. This ensures consistency across different machines without installing dependencies locally.
+To use the pack on another application, copy the five agent files, five skill files and [pack licence notice](.github/AGENT-PACK-NOTICE.md), then review them against that project's architecture, commands and approval rules. Full steps and example prompts are in the [usage guide](guides/usage.md).
 
-**Prerequisites:**
-- Docker Desktop installed and running
-- Visual Studio Code with the Dev Containers extension
+## How teams use it
 
-**Steps:**
-1. Clone the repository
-2. Open the folder in VS Code
-3. When prompted, click "Reopen in Container" (or use Command Palette: `Dev Containers: Reopen in Container`)
-4. VS Code will build and start the dev container with all dependencies pre-installed
-5. Run `dotnet ef database update` and `dotnet run` inside the container terminal
+1. Establish a factual baseline with the Documentation agent and subject-matter review.
+2. Agree a target architecture and a small first slice with the Modernisation agent.
+3. Establish meaningful tests and CI before changing behaviour.
+4. Agree delivery roles, risk controls, phase gates and cost assumptions with the Intelligent Migration agent.
+5. Implement one approved slice, review the evidence and repeat.
 
-### 3. GitHub Codespaces
+Humans own scope, architecture decisions, approvals and release. Agent instructions assist delivery; repository permissions, CI and review controls enforce the boundaries. See the [team guide](guides/team-adoption.md) for roles, adoption stages and useful measures.
 
-Develop entirely in the cloud with zero local setup. Codespaces provides a full VS Code environment in your browser.
+## Status and limitations
 
-**Prerequisites:**
-- GitHub account with Codespaces access
+- This is a reusable reference pack with a teaching application, not a production service or a completed microservices migration.
+- The worked documents are historical, AI-assisted examples. Cost estimates, productivity gains and completion statements inside them must be revalidated for any real engagement.
+- The example preserves its original .NET 9 dependencies and known limitations. Assess the stack and update it for your own supported environment before production use.
+- The existing application test suite passed **21/21** during packaging on **10 November 2026**. That verifies the included tests, not the effectiveness of every agent or a successful end-to-end migration. See [validation](guides/validation.md).
 
-**Steps:**
-1. Navigate to the repository on GitHub
-2. Click the green "Code" button
-3. Select the "Codespaces" tab
-4. Click "Create codespace on main"
-5. Wait for the environment to initialize
-6. Run `dotnet ef database update` and `dotnet run` in the integrated terminal
+## Licence and attribution
 
-All three environments provide the same development experience with the .NET SDK, C# extension, and all necessary tools pre-configured.
+The pack and original example are provided under the [MIT licence](LICENSE). Retain the copyright and permission notice when distributing copies or substantial portions. The [pack notice](.github/AGENT-PACK-NOTICE.md) provides a copy that can travel with the agent files. Bundled third-party libraries retain their own notices.
 
----
-
-## Database & Migrations
-
-### Apply existing migrations
-dotnet ef database update
-
-### Create a new migration
-
-- If you modify models:
-	- `dotnet ef migrations add <MigrationName>`
-	- `dotnet ef database update`
-
-- EF Core uses DesignTimeDbContextFactory (Data/DesignTimeDbContextFactory.cs)
-with the connection string:
-	- `Server=(localdb)\MSSQLLocalDB;Database=RetailMonolith;Trusted_Connection=True;MultipleActiveResultSets=true`
-
-### Seeding Sample Data
-
-At startup, the app automatically runs `await AppDbContext.SeedAsync(db);` which seeds 50 sample products with random categories, prices, and inventory.
-
-To reseed manually:
-```bash
-dotnet ef database drop -f
-dotnet ef database update
-dotnet run
-```
-
----
-
-## Running the Application
-
-Start the application:
-```bash
-dotnet run
-```
-
-Access the app at `https://localhost:5001` or `http://localhost:5000`.
-
-### Available Endpoints
-
-| Path               | Description           |
-| ------------------ | --------------------- |
-| `/`                | Home Page             |
-| `/Products`        | Product catalogue     |
-| `/Cart`            | Shopping cart         |
-| `/api/checkout`    | Checkout API          |
-| `/api/orders/{id}` | Order details API     |
-| `/health`          | Health check endpoint |
-
----
-
-## Environment Variables (optional)
-You can override the default connection string by setting the `ConnectionStrings__DefaultConnection` environment variable.
-| Variable                               | Description                | Default          |
-| -------------------------------------- | -------------------------- | ---------------- |
-| `ConnectionStrings__DefaultConnection` | Database connection string | LocalDB instance |
-| `ASPNETCORE_ENVIRONMENT`               | Environment mode           | `Development`    |
+Suggested credit: **Lavan Nallainathan, Intelligent Application Modernisation — agents, skills and worked example; original agent pack recorded January 2026.** Source and commit links are in [PROVENANCE.md](PROVENANCE.md); citation metadata is in [CITATION.cff](CITATION.cff).

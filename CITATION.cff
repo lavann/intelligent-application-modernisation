@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite this repository and retain the MIT notice when reusing the agent pack."
+title: "Intelligent Application Modernisation: Agents, Skills and Worked Example"
+type: software
+authors:
+  - family-names: Nallainathan
+    given-names: Lavan
+repository-code: "https://github.com/lavann/intelligent-application-modernisation"
+url: "https://github.com/lavann/intelligent-application-modernisation"
+date-released: "2026-11-10"
+license: MIT
+abstract: >-
+  A reusable agent pack for system discovery, incremental migration planning,
+  testing, programme governance and implementation, with a retail application
+  and worked outputs. The original pack is recorded in January 2026; this
+  dedicated publication retains that Git history and adds adoption guidance.
+keywords:
+  - application modernisation
+  - AI-assisted engineering
+  - GitHub Copilot
+  - legacy migration

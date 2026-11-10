@@ -1,0 +1,1115 @@
+{
+  "author": "Lavan Nallainathan",
+  "source_repository": "https://github.com/lavann/ads_monolith_agents_skills_270126",
+  "source_commit": "c3ed208326eccf0c6237dbd5c0fb6c171bcf0b7e",
+  "original_pack_date": "2026-01-27",
+  "publication_date": "2026-11-10",
+  "files": [
+    {
+      "source_path": ".devcontainer/Dockerfile",
+      "destination_path": ".devcontainer/Dockerfile",
+      "git_blob": "056c7f2dd12c570ce29afc9ff7c0878ab8339b29",
+      "sha256": "99ab1266495ba8d54dd2135899d4148ff3b92565103d5563aa33bace4e0fbbf0",
+      "bytes": 640
+    },
+    {
+      "source_path": ".devcontainer/devcontainer.json",
+      "destination_path": ".devcontainer/devcontainer.json",
+      "git_blob": "9817b3ff63fbdf509dbd90d0ea550de53a8b9240",
+      "sha256": "2034f2b7056fcb1a5453829321bd996ff97b4f50e49058446295bf67be64bd75",
+      "bytes": 1792
+    },
+    {
+      "source_path": ".devcontainer/docker-compose.yml",
+      "destination_path": ".devcontainer/docker-compose.yml",
+      "git_blob": "322a05067faba34d2289b7b4812a6556d75762bc",
+      "sha256": "3f1e1e4601b5076b65dc0e8bd64899559ecab64e6ab0fc0886f58a2f479b918d",
+      "bytes": 1002
+    },
+    {
+      "source_path": ".devcontainer/mssql/installSQLtools.sh",
+      "destination_path": ".devcontainer/mssql/installSQLtools.sh",
+      "git_blob": "d45e44b2e970edeffe130b15269a1f22f9b77234",
+      "sha256": "dc3d68dc61f517889f7963bb0264004a2db72e2f0e3d4474a7ff7f2cfb418649",
+      "bytes": 690
+    },
+    {
+      "source_path": ".devcontainer/mssql/postCreateCommand.sh",
+      "destination_path": ".devcontainer/mssql/postCreateCommand.sh",
+      "git_blob": "4fb0bca7c7d50e6dba8abe2269144c7f7cf8800c",
+      "sha256": "87142ab5d81436579c9948cb6e39997c36d8227647767e3f44a9973532ff071a",
+      "bytes": 1400
+    },
+    {
+      "source_path": ".devcontainer/mssql/setup.sql",
+      "destination_path": ".devcontainer/mssql/setup.sql",
+      "git_blob": "e108026afaf5237cbc9399ff3689c8052907cdfd",
+      "sha256": "8d501ed5c8ddbbfcaa6f4c5610840c1b890304bc95084fec45ea31961956e864",
+      "bytes": 33
+    },
+    {
+      "source_path": ".github/agents/documentation.agent.md",
+      "destination_path": ".github/agents/documentation.agent.md",
+      "git_blob": "8dd2d7e9b9e1a686925600076a2be93e7074480f",
+      "sha256": "4b6abd1d2159ebcc05b7b4610ed21d9dc0453482c68b5d6d4d12687698dd3f92",
+      "bytes": 1558
+    },
+    {
+      "source_path": ".github/agents/implementation.agent.md",
+      "destination_path": ".github/agents/implementation.agent.md",
+      "git_blob": "a3b217dcef5384e8987184b54a5d3c599cf93476",
+      "sha256": "88b545fa0c58651d39f1a48924886a175710e78c468d3354098e0fbfe2467041",
+      "bytes": 1885
+    },
+    {
+      "source_path": ".github/agents/intelligent-migration.agent.md",
+      "destination_path": ".github/agents/intelligent-migration.agent.md",
+      "git_blob": "2fa11adc4256f4394fbce2ca841390c25226d4ed",
+      "sha256": "c888de51dfa7f47de6f6f9ebb139abe2e6e606699cfe69b8d5fa1b776bedebf9",
+      "bytes": 2059
+    },
+    {
+      "source_path": ".github/agents/modernisation.agent.md",
+      "destination_path": ".github/agents/modernisation.agent.md",
+      "git_blob": "0ef15a6ce977a128355f48ea60194789e515958e",
+      "sha256": "a0a3564e9b25a82e8a1fbfb0e8682936972d5bb75596b65152dc3478d4eb5aa9",
+      "bytes": 1405
+    },
+    {
+      "source_path": ".github/agents/testing.agent.md",
+      "destination_path": ".github/agents/testing.agent.md",
+      "git_blob": "e114d35fcc760c42a325c0711afdd16e40ba295e",
+      "sha256": "41e7802cf62766a6e4cd2b390f666e18841c722b0c4869dec37a1418ac3bdc03",
+      "bytes": 1182
+    },
+    {
+      "source_path": ".github/skills/architecture-reasoning.skill.md",
+      "destination_path": ".github/skills/architecture-reasoning.skill.md",
+      "git_blob": "00bdf6415ed65d48e0039dc6e0935627f9ff5c59",
+      "sha256": "25e8ffdf82134dbddcef7882fc7516c909d3937a2d869bd0375994145fa6bbea",
+      "bytes": 2557
+    },
+    {
+      "source_path": ".github/skills/incremental-refactoring.skill.md",
+      "destination_path": ".github/skills/incremental-refactoring.skill.md",
+      "git_blob": "010517e327d946ea4b9b9e3e699fa5e908973108",
+      "sha256": "2f428ab3c5547c30d5bb360e383d991f3ab27f9c789b440ea31b1b23e35de989",
+      "bytes": 4136
+    },
+    {
+      "source_path": ".github/skills/intelligent-application-migration.skill.md",
+      "destination_path": ".github/skills/intelligent-application-migration.skill.md",
+      "git_blob": "2181d46c16973934f05ff92a10d8911db52011b7",
+      "sha256": "f7991ace3577ff5142fb8f1c951b904a5ab523dd087e65eb226c5c97eab656e4",
+      "bytes": 2442
+    },
+    {
+      "source_path": ".github/skills/system-discovery.skill.md",
+      "destination_path": ".github/skills/system-discovery.skill.md",
+      "git_blob": "2344b1aaa9224dec2bb423b80f7d72f4549bc425",
+      "sha256": "8d38a754543fb3968fe84d1ecfc4e0c7647c94507be8447914ca8cc2c5b988f2",
+      "bytes": 2528
+    },
+    {
+      "source_path": ".github/skills/test-synthesis.skill.md",
+      "destination_path": ".github/skills/test-synthesis.skill.md",
+      "git_blob": "545a83e21ef8209b692814f14cc39b952f2e5417",
+      "sha256": "9c86dee005e2a7b22b63a90dfa734d45a99b8baa076479733d0a5eb927214fa1",
+      "bytes": 1805
+    },
+    {
+      "source_path": ".github/workflows/ci.yml",
+      "destination_path": ".github/workflows/ci.yml",
+      "git_blob": "254503756b9d58b8617ea3913fc652f478383205",
+      "sha256": "d1c6a8e4d483300825776e30b91e5f271f964ec9770c1d6032451b5d35a1b913",
+      "bytes": 2296
+    },
+    {
+      "source_path": ".gitignore",
+      "destination_path": ".gitignore",
+      "git_blob": "5b537822a2146c683be36836d6c6360226d7d2cf",
+      "sha256": "6cf0c85136d8b6c1c9ab6ed3abba6d72a86f0f5707ddd96aa23875e9b7fb048e",
+      "bytes": 956
+    },
+    {
+      "source_path": "DOCUMENTATION_SUMMARY.md",
+      "destination_path": "DOCUMENTATION_SUMMARY.md",
+      "git_blob": "a58d00d957d2b4df1835f0488ef70107040ed82f",
+      "sha256": "8d0f9a04cbfc830b4c334cf2a824076647d8da340414ef6626e0de4e99245377",
+      "bytes": 12454
+    },
+    {
+      "source_path": "Data/AppDbContext.cs",
+      "destination_path": "Data/AppDbContext.cs",
+      "git_blob": "5c209f4fcf2b4b785dd4b65d17f3561aa3fbc452",
+      "sha256": "73bd6ef77b2aefcd58edf1c34d1185c5a2c213d82008adb80081912bb11f6c36",
+      "bytes": 2215
+    },
+    {
+      "source_path": "Data/DesignTimeDbContextFactory.cs",
+      "destination_path": "Data/DesignTimeDbContextFactory.cs",
+      "git_blob": "acfd7992cfa3a30fc636856c112a179cfef77e8f",
+      "sha256": "e781dedc0a1fd036e57739736f2b3d4df5179ca5bd2c5c48f7737f684a6bf9d1",
+      "bytes": 739
+    },
+    {
+      "source_path": "Images/Cart.jpg",
+      "destination_path": "Images/Cart.jpg",
+      "git_blob": "f56abd4ed69b5ffcf3908b2bae32404fce727fac",
+      "sha256": "e90358b32aaba827d4b3073157580ba03911c0e64a8018587940239681ea8ad6",
+      "bytes": 104584
+    },
+    {
+      "source_path": "Images/CheckOut.jpg",
+      "destination_path": "Images/CheckOut.jpg",
+      "git_blob": "f07a45c3c1f084382f2921f2314bf7d075905473",
+      "sha256": "13f548b17a14598da087491f9e8cbe6c3e7c401e8fdf8c0951cb325c37fa4314",
+      "bytes": 140723
+    },
+    {
+      "source_path": "Images/HomePage.jpg",
+      "destination_path": "Images/HomePage.jpg",
+      "git_blob": "5bed97f58434b843059fd0ce20ea7c4e7999d1e9",
+      "sha256": "9752f403e69a083ee6a6aafed7e4fd0d2d2158e455a509763f7be58467dfd103",
+      "bytes": 285972
+    },
+    {
+      "source_path": "Images/OrderDetails.jpg",
+      "destination_path": "Images/OrderDetails.jpg",
+      "git_blob": "ecf7cc3961d61acc5604b6541f9f35f4816851b7",
+      "sha256": "030f72dc05324925b3d0c2ee4939163ec43aed7ad65f47169d4c5c7e117c2255",
+      "bytes": 140485
+    },
+    {
+      "source_path": "Images/Orders.jpg",
+      "destination_path": "Images/Orders.jpg",
+      "git_blob": "f25724a0406e363de0764af968e77c306ee9d7db",
+      "sha256": "3b0cd392e57de538455e6ce476fca39affd95a386c74101a2a3b2b310b6ec910",
+      "bytes": 85926
+    },
+    {
+      "source_path": "Images/Products.jpg",
+      "destination_path": "Images/Products.jpg",
+      "git_blob": "e06b8cb80302895f1c5e1e46cc7480b4f471af1c",
+      "sha256": "a3a224179a68440c9f0043530246de6852340b7d99e182e3e00935616a655f90",
+      "bytes": 432731
+    },
+    {
+      "source_path": "LICENSE",
+      "destination_path": "provenance/original-LICENSE",
+      "git_blob": "5cee464ce95b2b8d737949f2270d9b351127de4f",
+      "sha256": "72b6eb213e050545d14752aeb56d878682968027ecc577f756ba2739b34c5a9c",
+      "bytes": 1063
+    },
+    {
+      "source_path": "Migrations/20251019185248_Initial.Designer.cs",
+      "destination_path": "Migrations/20251019185248_Initial.Designer.cs",
+      "git_blob": "f8697b33e33156d86e3b8fbd9e2d0bf8a387cb95",
+      "sha256": "6c89e443ae1f22fe1659303847e48dde2cc473b27ba73feb3b1041d338b15b6c",
+      "bytes": 7745
+    },
+    {
+      "source_path": "Migrations/20251019185248_Initial.cs",
+      "destination_path": "Migrations/20251019185248_Initial.cs",
+      "git_blob": "cb37e22468a4f0b9725ffb806c0602fb8923a5ae",
+      "sha256": "241bff0f6db9bb3d2e602971d95943113bdfa986034823bd3b4bc447fa9f676e",
+      "bytes": 6897
+    },
+    {
+      "source_path": "Migrations/AppDbContextModelSnapshot.cs",
+      "destination_path": "Migrations/AppDbContextModelSnapshot.cs",
+      "git_blob": "06e70acd02f87bba7fdd77e2ec3512af42ef8987",
+      "sha256": "a823fa49077b7bb355bb66980ae3b099c1350910e9e8be051bd00588768de450",
+      "bytes": 7656
+    },
+    {
+      "source_path": "Models/Cart.cs",
+      "destination_path": "Models/Cart.cs",
+      "git_blob": "8f98689ca0b88121fff2e41663c7239871c4b9c0",
+      "sha256": "398fc406ca341119fa40d35c236b9503467a7322145bce083359e060d2d19300",
+      "bytes": 578
+    },
+    {
+      "source_path": "Models/InventoryItem.cs",
+      "destination_path": "Models/InventoryItem.cs",
+      "git_blob": "6abfd21800b9705d218bb3822d520d8c3a8f7684",
+      "sha256": "8c47a051da456becacd301390ad677730ca3b42b294769fc34c4dcd834a6c9e7",
+      "bytes": 202
+    },
+    {
+      "source_path": "Models/Order.cs",
+      "destination_path": "Models/Order.cs",
+      "git_blob": "cc29a986912b04eafd9e5dd7a65ed217a10b4e25",
+      "sha256": "258c42e5a578c63483a584a7bcb5f5dac0317907dbb26a4bded0f0ce4a5dd8ed",
+      "bytes": 780
+    },
+    {
+      "source_path": "Models/Product.cs",
+      "destination_path": "Models/Product.cs",
+      "git_blob": "65e98670f2dff3f33d108922f790bfa4533ab869",
+      "sha256": "7354113d9f53b7df0940a4562340a5dd2846301f9b1592455743dfb4d5ff0d3f",
+      "bytes": 419
+    },
+    {
+      "source_path": "Pages/Cart/Index.cshtml",
+      "destination_path": "Pages/Cart/Index.cshtml",
+      "git_blob": "d67cbe283badadc1ec96de4b2ef37207ffe48560",
+      "sha256": "608132b78bb4c18835879d222cef22fbbf9f6738368824f74e8b8d49d613572e",
+      "bytes": 683
+    },
+    {
+      "source_path": "Pages/Cart/Index.cshtml.cs",
+      "destination_path": "Pages/Cart/Index.cshtml.cs",
+      "git_blob": "776438d39bed1e8b9dcb4b06bd77005f80f29df7",
+      "sha256": "171b66146deeac7baabd607437e41897093613bc3d816a920f75f6f6a6e34404",
+      "bytes": 1125
+    },
+    {
+      "source_path": "Pages/Checkout/Index.cshtml",
+      "destination_path": "Pages/Checkout/Index.cshtml",
+      "git_blob": "1c828abf04f88ed1842ff7c7cf70f3afcdef5974",
+      "sha256": "80cc10f0826c2262185679c6d00d950782c7b1a64ecf40d6f79a804d788a3b99",
+      "bytes": 1063
+    },
+    {
+      "source_path": "Pages/Checkout/Index.cshtml.cs",
+      "destination_path": "Pages/Checkout/Index.cshtml.cs",
+      "git_blob": "93a3f54af1ee405d5887e7093b14c8227f21ecf7",
+      "sha256": "7910214ccf4d89bc2233f30264d63b3b9937472773a585984659136447673d9e",
+      "bytes": 1687
+    },
+    {
+      "source_path": "Pages/Error.cshtml",
+      "destination_path": "Pages/Error.cshtml",
+      "git_blob": "6f92b9565570463a840d01c6ca4f29519392b455",
+      "sha256": "6d42ce8f51555c7c4a67ae83c909f1b4ad0d440781d3f4e814735afed9311581",
+      "bytes": 856
+    },
+    {
+      "source_path": "Pages/Error.cshtml.cs",
+      "destination_path": "Pages/Error.cshtml.cs",
+      "git_blob": "10d80ce293ab946ec8ae912694738a401e0390b5",
+      "sha256": "268096c36fd495ccdac1478ee984477e0f2a4ffe82047bb28fe4d8bbdb04a67e",
+      "bytes": 647
+    },
+    {
+      "source_path": "Pages/Index.cshtml",
+      "destination_path": "Pages/Index.cshtml",
+      "git_blob": "3dbfd054616a1cd4284f79f9f3700642bf08b9ae",
+      "sha256": "ebb3865bb6878f6e29fd247b9dbce067eb2bcf39318de56d1b1175790d8fb711",
+      "bytes": 4045
+    },
+    {
+      "source_path": "Pages/Index.cshtml.cs",
+      "destination_path": "Pages/Index.cshtml.cs",
+      "git_blob": "a3d97e7704b635ed546d4aea750b9b6a9aae67e0",
+      "sha256": "f2dfe02b6ff2403bcf20acd451a0cb1238ff0fc1649845db34927531c8c040ee",
+      "bytes": 326
+    },
+    {
+      "source_path": "Pages/Orders/Details.cshtml",
+      "destination_path": "Pages/Orders/Details.cshtml",
+      "git_blob": "2753b399abb58400e75d303bb8f5ab0dbcb913d0",
+      "sha256": "6f1f358d722e13408a1a1509106d29c5ce33d66408a84222383a4fb1c038e91e",
+      "bytes": 1065
+    },
+    {
+      "source_path": "Pages/Orders/Details.cshtml.cs",
+      "destination_path": "Pages/Orders/Details.cshtml.cs",
+      "git_blob": "24fa48ba7b878bf49e99011e325ff1f75deb938d",
+      "sha256": "e3d08e5ed52124e9eafc290a5e5ae7c2d2dffd1aa728ed6d3defd9827b89d6d8",
+      "bytes": 605
+    },
+    {
+      "source_path": "Pages/Orders/Index.cshtml",
+      "destination_path": "Pages/Orders/Index.cshtml",
+      "git_blob": "47fb45da551a9ce1f55bb99c144a90e63a378e2a",
+      "sha256": "6a3fcdd98ee35962acb9ed12f7bd28b7be78eb18ee62ae4a8b42c0045bf24885",
+      "bytes": 1155
+    },
+    {
+      "source_path": "Pages/Orders/Index.cshtml.cs",
+      "destination_path": "Pages/Orders/Index.cshtml.cs",
+      "git_blob": "3e5d5aff4c0f17b4c64b463829f6033e27440f80",
+      "sha256": "274ccdfd722112d9c47582f7810763903af37ccaf35926ba7ff3510b2a75380d",
+      "bytes": 643
+    },
+    {
+      "source_path": "Pages/Privacy.cshtml",
+      "destination_path": "Pages/Privacy.cshtml",
+      "git_blob": "46ba96612ec31c6cb9534149ef06e73d1d284b81",
+      "sha256": "c1e9d8d43865d3b68cedbf714fda9c0ff9393a18c7de943c3cd065343e1b4511",
+      "bytes": 164
+    },
+    {
+      "source_path": "Pages/Privacy.cshtml.cs",
+      "destination_path": "Pages/Privacy.cshtml.cs",
+      "git_blob": "66a1011d24e38e94057fa8eafa52a390d2db8587",
+      "sha256": "08bfb14906b6916411296c138762350839841d787f3908f33d2e597d9b790e0e",
+      "bytes": 337
+    },
+    {
+      "source_path": "Pages/Products/Index.cshtml",
+      "destination_path": "Pages/Products/Index.cshtml",
+      "git_blob": "a7521b54b698a55eb8f5606bc5771316386d6ecb",
+      "sha256": "ce567b06f4f6446135a496a04ddfb38f0504aafbf4ae9c3e76d91a436a91f0cc",
+      "bytes": 1312
+    },
+    {
+      "source_path": "Pages/Products/Index.cshtml.cs",
+      "destination_path": "Pages/Products/Index.cshtml.cs",
+      "git_blob": "b178b47c55e02dbbd3376b313181f1db82944ad7",
+      "sha256": "cf7a15977d53f3d525c7730681909986a745af180bcd6d9db368779563ab43b5",
+      "bytes": 3148
+    },
+    {
+      "source_path": "Pages/Shared/_Layout.cshtml",
+      "destination_path": "Pages/Shared/_Layout.cshtml",
+      "git_blob": "3258895a09048c0c162e1179a552b87702f9a28b",
+      "sha256": "e5fc0e14e6332821195ff4fa5935e47de8c453de66bac7a32736be1337ffb50b",
+      "bytes": 3219
+    },
+    {
+      "source_path": "Pages/Shared/_Layout.cshtml.css",
+      "destination_path": "Pages/Shared/_Layout.cshtml.css",
+      "git_blob": "c187c02e050873568d42a01ececaac425560851b",
+      "sha256": "1fe98c23430e23af20e98ab9e62fe39c7b6eaef1e3d9d4b59f3e85b31843077c",
+      "bytes": 877
+    },
+    {
+      "source_path": "Pages/Shared/_ValidationScriptsPartial.cshtml",
+      "destination_path": "Pages/Shared/_ValidationScriptsPartial.cshtml",
+      "git_blob": "5a16d80a9aa78592ddc961b1d48b549024a3dbbf",
+      "sha256": "fb1778070041325577c8463415f2d445aad6ccf35685bd71cddea0a0bb02b9c6",
+      "bytes": 174
+    },
+    {
+      "source_path": "Pages/_ViewImports.cshtml",
+      "destination_path": "Pages/_ViewImports.cshtml",
+      "git_blob": "13fbda2ea094187bebdeab0b9276939eee07d8b8",
+      "sha256": "b83c088cfe931f3893154063112751b8f419d6f30a3629fa75072454ffb7613a",
+      "bytes": 110
+    },
+    {
+      "source_path": "Pages/_ViewStart.cshtml",
+      "destination_path": "Pages/_ViewStart.cshtml",
+      "git_blob": "a5f10045db97461e9565c3273fdb9252687aa4f1",
+      "sha256": "f6dceb9e6258ad80525250b5faf8454ab7688b0f5d58a253529149f42d4ec50c",
+      "bytes": 32
+    },
+    {
+      "source_path": "Program.cs",
+      "destination_path": "Program.cs",
+      "git_blob": "712691e706ecb7b0754f23b9a1f1d55e019950df",
+      "sha256": "e85ed34608ac24b883ae6b26faf533e17cdcb31f543cb0200270d4fbaa066fea",
+      "bytes": 2185
+    },
+    {
+      "source_path": "Properties/launchSettings.json",
+      "destination_path": "Properties/launchSettings.json",
+      "git_blob": "4bffe06f689d5fd2dcb4d4bf26459c85a0ffc57e",
+      "sha256": "4fe374eb3daafab426cdcd16d183234b20bca8ac920b7b963ad8199a4b0c68a6",
+      "bytes": 991
+    },
+    {
+      "source_path": "README.md",
+      "destination_path": "guides/original-source-readme.md",
+      "git_blob": "e7dea4b12ea6ab1325af4fb1013e6c7bd535986b",
+      "sha256": "b6a24de036dfd22efb3cf5aa2ecdd1a79403ac247ef147b458a0f045dbdc2e6e",
+      "bytes": 5136
+    },
+    {
+      "source_path": "RetailMonolith.Tests/E2E/HealthCheckTests.cs",
+      "destination_path": "RetailMonolith.Tests/E2E/HealthCheckTests.cs",
+      "git_blob": "a15a2101f84589ed8bff785f6d4cb66b64fa1984",
+      "sha256": "b2eb8a80142e58ccd41b246499444ddeeed90d05a767de169a1357bd2378439d",
+      "bytes": 2685
+    },
+    {
+      "source_path": "RetailMonolith.Tests/Helpers/TestDbContextFactory.cs",
+      "destination_path": "RetailMonolith.Tests/Helpers/TestDbContextFactory.cs",
+      "git_blob": "a27a0270330ce89f89fe4c44a69b3698d61d9e0d",
+      "sha256": "7d01c7eb6d2f6f6837f13c84ed0f70694f18d495e91d7fddac60461f27df4235",
+      "bytes": 2874
+    },
+    {
+      "source_path": "RetailMonolith.Tests/Integration/CartServiceTests.cs",
+      "destination_path": "RetailMonolith.Tests/Integration/CartServiceTests.cs",
+      "git_blob": "d339d98abeafbdc714fb4e6a9e6d30c71e940bfe",
+      "sha256": "e9fc497988147856b13f0604cd25ec9e479873256725c6a862fe2f6172149894",
+      "bytes": 8045
+    },
+    {
+      "source_path": "RetailMonolith.Tests/Integration/CheckoutServiceTests.cs",
+      "destination_path": "RetailMonolith.Tests/Integration/CheckoutServiceTests.cs",
+      "git_blob": "71172174148d3f6416284b4b5f6fb071a13fad48",
+      "sha256": "2a4004278c7b5b3afb5f77dd23f6cab2181aa0e6a5912fd6f5583699992aaaae",
+      "bytes": 11301
+    },
+    {
+      "source_path": "RetailMonolith.Tests/README.md",
+      "destination_path": "RetailMonolith.Tests/README.md",
+      "git_blob": "daef255006e07501344c6b2bb854a392b66834ad",
+      "sha256": "babf11c228ec820bd732dcdfd3790f17c19c2ab7740bb4c3c32df453b7f9f784",
+      "bytes": 3631
+    },
+    {
+      "source_path": "RetailMonolith.Tests/RetailMonolith.Tests.csproj",
+      "destination_path": "RetailMonolith.Tests/RetailMonolith.Tests.csproj",
+      "git_blob": "cb04e95ddedf5ea75f023c9e8a821267c39b0f7e",
+      "sha256": "7c8650d725193728074c8df85aef2190794a3bafe6932b2a76b58570ac6bb89d",
+      "bytes": 974
+    },
+    {
+      "source_path": "RetailMonolith.csproj",
+      "destination_path": "RetailMonolith.csproj",
+      "git_blob": "6df63edafb458cc5bd2e07d5d5cbb79b40373a92",
+      "sha256": "b7b3504ddfbad7e44b6e69ba6924a578cde53e04e374b006fec927772513553f",
+      "bytes": 953
+    },
+    {
+      "source_path": "RetailMonolith.csproj.user",
+      "destination_path": "RetailMonolith.csproj.user",
+      "git_blob": "674a4a1c36d6478a47063573d93934099aee7888",
+      "sha256": "36bd8806157cb233ca4a9a8ab2e0a2fa8fbd6a6792030e72fb10dd4bc3f39421",
+      "bytes": 433
+    },
+    {
+      "source_path": "RetailMonolith.sln",
+      "destination_path": "RetailMonolith.sln",
+      "git_blob": "9078876389af932e12e77bcd45801e00d6a38473",
+      "sha256": "f199c217f0b7bed42f070826e8e37c851732c95375d7008e565d2d31c27e3049",
+      "bytes": 2967
+    },
+    {
+      "source_path": "Services/CartService.cs",
+      "destination_path": "Services/CartService.cs",
+      "git_blob": "c38ff185093e2d8cff076f46faf0f24e4e9e45dd",
+      "sha256": "b38267956e54b5f7382d673b06d5024147785dab7879f6c17d8dfc4e9ec51607",
+      "bytes": 2988
+    },
+    {
+      "source_path": "Services/CheckoutService .cs",
+      "destination_path": "Services/CheckoutService .cs",
+      "git_blob": "7e97914b735c1910a199f64a6776881e316cb862",
+      "sha256": "cf11a7f430baa0844de89fe1ea0a9b41b7a377490c1bfc803273829d62d1c4ba",
+      "bytes": 2104
+    },
+    {
+      "source_path": "Services/ICartService.cs",
+      "destination_path": "Services/ICartService.cs",
+      "git_blob": "e465528c55c1c5faf881211eeb00b6d76117f9d8",
+      "sha256": "ccf70c768f4f23cc2b419ff13a7678afeb0647cefa18658feba4478172263549",
+      "bytes": 495
+    },
+    {
+      "source_path": "Services/ICheckoutService.cs",
+      "destination_path": "Services/ICheckoutService.cs",
+      "git_blob": "5b95983655523eebbb891d536347bc6f5df1b5dd",
+      "sha256": "d4edbea99a0f7c9380f2794da1c24ed611de3c768c931771fc5d9bcb9e17cbda",
+      "bytes": 228
+    },
+    {
+      "source_path": "Services/IPaymentGateway.cs",
+      "destination_path": "Services/IPaymentGateway.cs",
+      "git_blob": "879788d756f6ec602599c18c33d8457cc8fecd56",
+      "sha256": "b8dd5e7ab1f0bdad4e877b2929cc341f0d673cdf149bee0ee3b91987d6756ec4",
+      "bytes": 392
+    },
+    {
+      "source_path": "Services/MockPaymentGateway.cs",
+      "destination_path": "Services/MockPaymentGateway.cs",
+      "git_blob": "4b1947c5d3b1d2820f0786331f799943a03b4a42",
+      "sha256": "2aeae1820a41235846a49b6acf89da57fc91cffc1240d6d53f42d941a6164248",
+      "bytes": 412
+    },
+    {
+      "source_path": "appsettings.Development.json",
+      "destination_path": "appsettings.Development.json",
+      "git_blob": "5be8482d4a94150ea5667ab8df89c632b2c14c0b",
+      "sha256": "46de4cb91049f3533a1296b0a226e50a414a6c855eec0858a4f6cca91aa75ae1",
+      "bytes": 311
+    },
+    {
+      "source_path": "appsettings.json",
+      "destination_path": "appsettings.json",
+      "git_blob": "10f68b8c8b4f796baf8ddeee7551b6a52b9437cc",
+      "sha256": "2d8bb40059df22089b94c025be8baad5a869b72d4d755d199c872f03bfe6f225",
+      "bytes": 142
+    },
+    {
+      "source_path": "docs/ADR/ADR-001-monolithic-architecture.md",
+      "destination_path": "docs/ADR/ADR-001-monolithic-architecture.md",
+      "git_blob": "f7d68bd67f70496f8e8ca865df6fdf51abef80a4",
+      "sha256": "a875174e5166f0b7c90f945c1d9a7dcad60d2731156779837d5ad3a0e449059a",
+      "bytes": 2671
+    },
+    {
+      "source_path": "docs/ADR/ADR-002-auto-migration-startup.md",
+      "destination_path": "docs/ADR/ADR-002-auto-migration-startup.md",
+      "git_blob": "5892dd3dc09388633aecb768d3a71f6d939511ee",
+      "sha256": "90ffbc12492dcdd544b6db98750a1dec01ac6f41c3491d12c65d99430d249895",
+      "bytes": 3821
+    },
+    {
+      "source_path": "docs/ADR/ADR-003-hardcoded-guest-customer.md",
+      "destination_path": "docs/ADR/ADR-003-hardcoded-guest-customer.md",
+      "git_blob": "10d4462291dc4caa5c98ff58714fb29e1ec48de1",
+      "sha256": "df24cef7e2196d7fc1c493640f925087e2a7de14d31ce075e27b56609fd5a970",
+      "bytes": 3837
+    },
+    {
+      "source_path": "docs/ADR/ADR-004-mock-payment-gateway.md",
+      "destination_path": "docs/ADR/ADR-004-mock-payment-gateway.md",
+      "git_blob": "58f5745d51f594d001b0b9c3752eac05a7e3c5a9",
+      "sha256": "63ef622e0190b7c7a4b86a7ef736b14d029a98ec033e5c5c1fbde277785d5589",
+      "bytes": 4537
+    },
+    {
+      "source_path": "docs/ADR/ADR-005-service-decomposition-strategy.md",
+      "destination_path": "docs/ADR/ADR-005-service-decomposition-strategy.md",
+      "git_blob": "bb73c34ee35012a3751f607a12c40bcd9046495f",
+      "sha256": "eaa605224780091370cbb29298fb881bf9bf585576d4bde5a32efcf4fa91095a",
+      "bytes": 8133
+    },
+    {
+      "source_path": "docs/ADR/ADR-006-data-migration-strategy.md",
+      "destination_path": "docs/ADR/ADR-006-data-migration-strategy.md",
+      "git_blob": "847d2aa4ef1f75038e9f5502c0ce5e78750b259e",
+      "sha256": "04e876f07d5de5fa99c76f7a1523f437add579b65c579673c607ea7f2c360af3",
+      "bytes": 12965
+    },
+    {
+      "source_path": "docs/ADR/ADR-007-api-gateway-yarp.md",
+      "destination_path": "docs/ADR/ADR-007-api-gateway-yarp.md",
+      "git_blob": "ce95fe96256bc882cbdf99d834ec1453252ecd27",
+      "sha256": "36c06bd983daceed1f2ce2f6a54cdec3ee96ee86851261272da85162bec321e7",
+      "bytes": 13009
+    },
+    {
+      "source_path": "docs/ADR/ADR-008-saga-pattern-distributed-transactions.md",
+      "destination_path": "docs/ADR/ADR-008-saga-pattern-distributed-transactions.md",
+      "git_blob": "53cca0a296f0a7251934b0a1b56f476dbe54f93e",
+      "sha256": "cf28c4c983a601748b95a09d65bf1375c4645096ee65562a1ea3d6c61d737b47",
+      "bytes": 19686
+    },
+    {
+      "source_path": "docs/ADR/ADR-009-container-orchestration-platform.md",
+      "destination_path": "docs/ADR/ADR-009-container-orchestration-platform.md",
+      "git_blob": "c855634ef740ebc9df6b792c5e55b56e33ad6e14",
+      "sha256": "aefc4a81b31219f7e1fcd76091c0b428bb478e241367ae6408c84215cbbe9cef",
+      "bytes": 15303
+    },
+    {
+      "source_path": "docs/HLD.md",
+      "destination_path": "docs/HLD.md",
+      "git_blob": "d8e49f90a7ef509009c51a11912f9bea0b471abd",
+      "sha256": "ba343d00603f55005922d8d32a3364210a3e429234f1edc3e9bcb4231cad93b0",
+      "bytes": 7150
+    },
+    {
+      "source_path": "docs/Intelligent-Migration-Plan.md",
+      "destination_path": "docs/Intelligent-Migration-Plan.md",
+      "git_blob": "19d2764422e8e6d5dbf298802bdeb88758d6a070",
+      "sha256": "42ae8bd6ea3e220609c83de93c7939568102d533c125e4ea0180648c089570de",
+      "bytes": 24306
+    },
+    {
+      "source_path": "docs/Intelligent-Team-Model.md",
+      "destination_path": "docs/Intelligent-Team-Model.md",
+      "git_blob": "8f7d06caf708a55261936e2cde53b24af7111896",
+      "sha256": "36dfbdc3205c8c496cf7bcb583ea24ed1b3edccd1c26b06bfac6007db5552f3e",
+      "bytes": 29477
+    },
+    {
+      "source_path": "docs/LLD.md",
+      "destination_path": "docs/LLD.md",
+      "git_blob": "5013df89d108df9b475e04af221ffa5651a61402",
+      "sha256": "74cd56d88eb8f5e5d31f55b8dfff6db5577fcd1c80bbbf09b543aa86852f2b5d",
+      "bytes": 17891
+    },
+    {
+      "source_path": "docs/MODERNISATION-README.md",
+      "destination_path": "docs/MODERNISATION-README.md",
+      "git_blob": "bc4835793c935a587e3fff087a75545a5f9f6f2c",
+      "sha256": "47551d0fd96ab15c1dc705aa763e2c0e937336d74a0456b46e6877dacd1ad3d5",
+      "bytes": 7855
+    },
+    {
+      "source_path": "docs/MODERNISATION-TASK-COMPLETION.md",
+      "destination_path": "docs/MODERNISATION-TASK-COMPLETION.md",
+      "git_blob": "21b412a1b5a72a56734c58fb5b99ed70ed64a19e",
+      "sha256": "a8ff27cd28a25ed97126035d661ea8b4ca494b2395fb78922b219c0a6aea99e6",
+      "bytes": 6398
+    },
+    {
+      "source_path": "docs/Migration-Plan.md",
+      "destination_path": "docs/Migration-Plan.md",
+      "git_blob": "ef791442048b5cef0463051e539bdb6e966baeed",
+      "sha256": "68f423fe588fa0c263b1fbcb8c56becf41cdf33f5f0977c4de9f7ab726b9cd1a",
+      "bytes": 41882
+    },
+    {
+      "source_path": "docs/ROI-and-Budget.md",
+      "destination_path": "docs/ROI-and-Budget.md",
+      "git_blob": "ad1de72b793446e81f47afdbda922359ec467e87",
+      "sha256": "bea6adddda9f127df0941a912356c8b05af6fa766df7c01dfcb2fa110fc7200c",
+      "bytes": 26559
+    },
+    {
+      "source_path": "docs/Risk-and-Governance.md",
+      "destination_path": "docs/Risk-and-Governance.md",
+      "git_blob": "a02a0252aaa5dd4b9b5a411af15653e16f0c2ed5",
+      "sha256": "e8faf81997ffadd7c577180a34544f387cf41bff9e07bdb1e317f11d6156dfa3",
+      "bytes": 30823
+    },
+    {
+      "source_path": "docs/Runbook.md",
+      "destination_path": "docs/Runbook.md",
+      "git_blob": "4050991093062392c27112c14556f8694bce62e9",
+      "sha256": "3748c5f9319bf286df59f302394a05c0dc5cfce81dc76bfcd9ea6eb2706f191f",
+      "bytes": 14113
+    },
+    {
+      "source_path": "docs/Target-Architecture.md",
+      "destination_path": "docs/Target-Architecture.md",
+      "git_blob": "5d13ee3653a8cd53b020f98e1eee8491e622757e",
+      "sha256": "128f5c43f20fecfeed8ca7803a9d3f67378a4e670193758433604146e58f3e3e",
+      "bytes": 22453
+    },
+    {
+      "source_path": "docs/Test-Strategy.md",
+      "destination_path": "docs/Test-Strategy.md",
+      "git_blob": "364abde1007f9af297ddac23462b5560888ab279",
+      "sha256": "c13f7585e4705fc1f68fb8a3928488175694a3ffd0f94d85bf0b957702f9f987",
+      "bytes": 12462
+    },
+    {
+      "source_path": "docs/Testing-Execution-Summary.md",
+      "destination_path": "docs/Testing-Execution-Summary.md",
+      "git_blob": "fee451a735dacf9d20fedaa5e70b6542276882cf",
+      "sha256": "865fa7ec6aef6ecd7155e445444eaaa9fa758b9a368b8ca35704c320b3ece764",
+      "bytes": 7182
+    },
+    {
+      "source_path": "wwwroot/css/site.css",
+      "destination_path": "wwwroot/css/site.css",
+      "git_blob": "f8d98fcb771c217091024c272f87defa13ebbf34",
+      "sha256": "af6d8cef139a85c3217960a4a15a1fd8db7ba509a3ee631214a4de8be49f990d",
+      "bytes": 341
+    },
+    {
+      "source_path": "wwwroot/favicon.ico",
+      "destination_path": "wwwroot/favicon.ico",
+      "git_blob": "63e859b476eff5055e0e557aaa151ca8223fbeef",
+      "sha256": "26dc5ff4bfb9213291735808465e156d4a4691135f3815e3613761243e1f69c3",
+      "bytes": 5430
+    },
+    {
+      "source_path": "wwwroot/js/site.js",
+      "destination_path": "wwwroot/js/site.js",
+      "git_blob": "09376573536e4d6e7f86413c56c62b83131f45bc",
+      "sha256": "cbf36077c5b6d54a6e094844a866d428312a16735f4e301f6f6e068492465323",
+      "bytes": 227
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/LICENSE",
+      "destination_path": "wwwroot/lib/bootstrap/LICENSE",
+      "git_blob": "72dda234edaa4d2b0e9e2c5420d8685e920ec3e5",
+      "sha256": "5b30317c9c35bb6f05101c501de866cc6852ab9b655dcf5941733f6644c3ebd0",
+      "bytes": 1131
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "git_blob": "430a001fbb667ee439f1af51b86ec5ad2398e3c0",
+      "sha256": "26d92d822b9001df805deac29cf32b1c20f3d61e40b641f9b686efa6e1bbc59e",
+      "bytes": 70538
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "git_blob": "c006d39bc083903f825511a385f657ef77021f28",
+      "sha256": "40ef1c31b5642e292d517d5c1de5d25127b99d7317520c8bf5c8f09cccb13ea7",
+      "bytes": 196535
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "git_blob": "316035986a8ed31dbfd867f2be6ceade21dc8703",
+      "sha256": "cac053fc96311fd81c327c314f8f8c078b0fc4ec7f24c83dc22efb140d774fd0",
+      "bytes": 51319
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "git_blob": "4f745dedae03f675dc6f6d21147f4f47732cb84d",
+      "sha256": "ef60bfa83086bbe3b059e540d376dff4a7b44fca08a330ae6f495f26487386f1",
+      "bytes": 117439
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "git_blob": "3c339b5fb84ec31312036d3b19e07e1b423bfd2f",
+      "sha256": "def5099194a928bff31bbc7a18dbc38ecd13c58528f7332de9d01cf21a7d095a",
+      "bytes": 70612
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "git_blob": "33f5c3b2633f4c2ea0380cf718da3b9b9ffdf435",
+      "sha256": "aaf037f4e32512ce778da7b0a9516613c0d042b8a8e3b6d9b654ecf96bba53c8",
+      "bytes": 196539
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "git_blob": "d3dfc1b670ccfe6c08c117927259e1f525ea930a",
+      "sha256": "3ba95bda45daac6815c38fd10c3e36c983e1648c1112d85385014a1a60fede3d",
+      "bytes": 51394
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "git_blob": "86d302aa91468c4216bb5fa2b614db2a779820b8",
+      "sha256": "3434998c888c3d12283bbff0efe8c779ff2b7ad3f8ae241af0f323e015511a89",
+      "bytes": 117516
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "git_blob": "c1bcf3b0402775977c983ce890be2bfb5ae72741",
+      "sha256": "e336d6af440d161a54c06927e16746597b7cd0a9e1445bf4a97919c959e16a36",
+      "bytes": 5850
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "git_blob": "c06c13a042b74b99bc69a0f71552e34db61a71f4",
+      "sha256": "1591b42b16cda884d48b8418ed0bcf1514bf4dc727b4c7c559f49374737fa70b",
+      "bytes": 105138
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "git_blob": "0aba046073cc8d74b110691ad68f9a54c074f92c",
+      "sha256": "cf4380a51f3c504a1c6174d71d4ed47b271a8a26fd5db0d499e97d1b1d206f1e",
+      "bytes": 4646
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "git_blob": "68401faf0f09977e537dbd370d80014155834131",
+      "sha256": "d816d1b04ffe7335f5b9f9833c6a67122782f6ee88de6e4128d0d25f5a1bde58",
+      "bytes": 35330
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "git_blob": "6b89c0fc318311ee54b54dba50748abcba63688d",
+      "sha256": "f0d5f0de4178f4591054f31d8e7183aa85d7454d13c33b0b7c219b2bd53c8279",
+      "bytes": 5827
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "git_blob": "22868baa7983ecd63e2d6ad6f89c97058b004b15",
+      "sha256": "fc47561cdeade5760fa650bcf2f8b119fac1bdf1228b5f6402cb1bfb4601554f",
+      "bytes": 105151
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "git_blob": "35eb0694480ba4ec267dfc7da0357fe9aaf7be9b",
+      "sha256": "6b92a5832b19e1f417c38af322f5c31c4ac50cf7874522dc70fee45fa1eebd24",
+      "bytes": 4718
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "git_blob": "777af62ba279222cced9628ec3ea998f67a12eb0",
+      "sha256": "18c0e4e6903974590e8a69010167848d867eee58073d2d236259faa7f589558b",
+      "bytes": 41570
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "git_blob": "7b563709902921cdf12abc8f751eaf290a052a3b",
+      "sha256": "35b159c592e605534bcdbffb07459d15f6fafbc8d71c65fa5d8d7dd2ec206de7",
+      "bytes": 71584
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "git_blob": "8b5cb0de1f1af8bcada6bd298a13127d658e8354",
+      "sha256": "e1622a3e87ffbeb5d83bf8de2787c33902946162307bae15dddfbdfea363bb6d",
+      "bytes": 192271
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "git_blob": "bdb903aebcb8c7a4bb878f49b7adcae4e593e1cd",
+      "sha256": "e7e13198c922688de47984112e13626c9e595e736e5916f0ad73806684d73058",
+      "bytes": 53479
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "git_blob": "2f7a71ce582e71e47e9826f2089544239b85378e",
+      "sha256": "a75768a78b2579f6612f8cc6da96bafb61d4ace63551402b1895e67adf0c77d7",
+      "bytes": 111875
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "git_blob": "1fced998a9a8a31e2db043cdd6bc2188d0584340",
+      "sha256": "a5e0061fc1aefd92fd5676d419230debd262e4cc706ef39be778035d4d9c3da4",
+      "bytes": 71451
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "git_blob": "69cea4c4250193f081cdbac81ffb05a64d7bf328",
+      "sha256": "a6e0e02b0be5140a2b77d47c1bca1ff4fd825582095054a821b8c32c4b0a107d",
+      "bytes": 192214
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "git_blob": "eac0d8b5ad9f9d7a1f8dddd0223f53db55a1226d",
+      "sha256": "5a2e59b854872dfc7a7651208ef5b7058f530bfd4da9d0638fe5c589f492a8de",
+      "bytes": 53407
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "git_blob": "b9ab9867b46209de1f334f845964fd3abcd22711",
+      "sha256": "d3691ae329a8139c8479c2d49dc2c6dff4a8b9340c9d324e92d5fef7a3edffcf",
+      "bytes": 111710
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "git_blob": "750da4e19b9a8713ad898b0b015d9ada7db62348",
+      "sha256": "c657b1aa3f7f937ba86d5c067dc899723fde0dda2868d81c7f83852ed2d4ca03",
+      "bytes": 204136
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "git_blob": "ade3b98a096cf8fab2de25a9d7c42f7338400116",
+      "sha256": "0d1bd6af481a9e08f9ff94370d19fab6dce97160f39773a91e80300333434794",
+      "bytes": 536547
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "git_blob": "02ae65b5fe5d12c881eb054006f68b52a2818615",
+      "sha256": "cfc391e34328c09f0680ae8ff3d63e86224ae7e71c973147ccb84540b2fdd9b8",
+      "bytes": 162720
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "git_blob": "afcd9e33e9eae3876cdc0dfaafa5a80e012b1631",
+      "sha256": "801c20dad980d028b6bb9e20305d63342564bbabf39daae42d2e83efa86d34d4",
+      "bytes": 449111
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "git_blob": "52fc4e2caa5bda23a5f07f7abc0a1823a612aa7e",
+      "sha256": "499da629a0f803e6fe1c8bedb7097e4ef2c59d5cbca3cfd7e348fe10a570caf6",
+      "bytes": 203803
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "git_blob": "187048eb120f6725e46bb4a414a37e3951f0ebf6",
+      "sha256": "545be68bf652c101668d2e8faf2f41f335de67f180d7af135cbcb290384d3191",
+      "bytes": 536461
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "git_blob": "9f768292f08c56264972983e20c30bbe1b50bb35",
+      "sha256": "db6c11e904e27687a24595e9eb391143231251bfc507e02fd758ea999245eae5",
+      "bytes": 162825
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "destination_path": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "git_blob": "8d1977fb21745b27e49e2825eb9651903ad1c99d",
+      "sha256": "8fbbaa2b95684d3e2b50732bf75d50114e526bde25477ba1f44dbc5c1325ceb3",
+      "bytes": 661035
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "destination_path": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "git_blob": "969ecb04bd84255dfc366604c23ba5540bf72048",
+      "sha256": "bd04dfe1ddd6262f6f99640d0389099e3a1e7601213055c50c4317aad1ed8339",
+      "bytes": 208492
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "destination_path": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "git_blob": "631f1ec3f92a6d944aca47e7ad526cbb641e3525",
+      "sha256": "80ee2e8717c6b8ad0e3634651eec1f82119f1174f96b39b5a075a74c41464df9",
+      "bytes": 425643
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "destination_path": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "git_blob": "b65b161a5332cca8cdea77ed3320bcc99380f304",
+      "sha256": "2aebc2552d7dadf4e3a0b80cc830c274e91146584dad8e29b04338b9ecedb363",
+      "bytes": 78468
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "destination_path": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "git_blob": "a59a60b893059f9b05b70d89519a3102f5be9bd9",
+      "sha256": "c48041c433ef5a193cfc975a1446687a369d7da28551f645c114b50f8264baba",
+      "bytes": 327261
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "destination_path": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "git_blob": "ca37afc02cf0bc247b14221e4fdbe373aedecc93",
+      "sha256": "12e0d750960a9df66e3bc7522cdd1fe6255b55ab33dfa0113ae014dcd277241a",
+      "bytes": 139019
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "destination_path": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "git_blob": "9053c341364b451f102f9a30f10a79c0c53ef26c",
+      "sha256": "0a5942fec6cbbf22c4f5c4258e61519484dfa9d6519c1bf6cac5f92c9b65fdd8",
+      "bytes": 288320
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "destination_path": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "git_blob": "ab1666b04ff2d57f7ee682f78b6c3d5ce921ca17",
+      "sha256": "2a3e22ad058fc1f49be4d15ea2cfe1d08ae8239fe7220d07b408d0fb0e2fe931",
+      "bytes": 72016
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "destination_path": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "git_blob": "ebd1f8e6936dd885a6d02646de1499dff703a700",
+      "sha256": "b0fab359c492f5a45ada0a564d5350cde99a8e7f21ac58e05cf8f78fd408b50a",
+      "bytes": 222508
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "destination_path": "wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "git_blob": "05e7fd91fe1cc49457f2b6ec829d0fd6ba20b9cb",
+      "sha256": "e884ad4507ab05c8584b0e89d8659339618e9c346b59799a1b4afa9c2c0de6ce",
+      "bytes": 148168
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "destination_path": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "git_blob": "dff3dc468893f07e4f912461f9e7aa4c361e9b1b",
+      "sha256": "424979999519eb869805a39144c3fd8df0f5933f09e85c2257633ce890c991d4",
+      "bytes": 289522
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "destination_path": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "git_blob": "e50d39132aa04e53e8328954c002d2e6f2e08215",
+      "sha256": "7382e5e9e48883a128b6193ca4258017c684f76dc4bed535d69aa3072f8d8cd3",
+      "bytes": 59511
+    },
+    {
+      "source_path": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "destination_path": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "git_blob": "75d817a3d3b5d447fbe9cc53f24a34398c7df0aa",
+      "sha256": "ba2fc5408fb2d0852c63c3db8bcd1bf2cdc67842fe3ecbdd68b4ce3686e99fcf",
+      "bytes": 217145
+    },
+    {
+      "source_path": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.MD",
+      "destination_path": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.MD",
+      "git_blob": "984713a49622a96da110443c15477613bc12656b",
+      "sha256": "cfc21f5e8bd655ae997eec916138b707b1d290b83272c02a95c9f821b8c87310",
+      "bytes": 1116
+    },
+    {
+      "source_path": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "destination_path": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "git_blob": "009306070a81c2db13112c4e7d5e5daa01b46f61",
+      "sha256": "c0941a2745f29c11367eae827b15d78712aeedfb2d56641ced5d8c1cd4e8f964",
+      "bytes": 19385
+    },
+    {
+      "source_path": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "destination_path": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "git_blob": "d8d803c65e634d47d44b59d113b78f5bc12d29ff",
+      "sha256": "6096bb5bc12241d429924f778861238e72d25164694496d27f37d4461d64c73e",
+      "bytes": 5824
+    },
+    {
+      "source_path": "wwwroot/lib/jquery-validation/LICENSE.md",
+      "destination_path": "wwwroot/lib/jquery-validation/LICENSE.md",
+      "git_blob": "dc377cc031064ba146e9af3cb64155522ade5cfa",
+      "sha256": "f398878cab338b869638bdac1aeae76bf3ac11b2b89da6e0b68bc1a645733440",
+      "bytes": 1095
+    },
+    {
+      "source_path": "wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "destination_path": "wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "git_blob": "c6a7229185ab52a4fa89941727b0078d805b6fc0",
+      "sha256": "d0778c5b24146d36deed21a74986e38fdf87540d2128398452d6d8a1329ef819",
+      "bytes": 51466
+    },
+    {
+      "source_path": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "destination_path": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "git_blob": "80f14b58c2e1a8ff2e2e79260953476be8795fcc",
+      "sha256": "f74465ceecfca4864ae20f68d88ee718afbd9f9714f516ddb781adc513b96ab0",
+      "bytes": 22174
+    },
+    {
+      "source_path": "wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "destination_path": "wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "git_blob": "cd0442eb98af76d18c0f59dd480a5334e71a2b81",
+      "sha256": "9b497cd560cf886ec2706ec20ec4ee673bdc1afc859ab418e432c8c71dda446c",
+      "bytes": 51171
+    },
+    {
+      "source_path": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "destination_path": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "git_blob": "442a41317af971c9b043248f763ec1bd6cd73855",
+      "sha256": "270524b0d27afd1d3b6622d1a176c678daed94564c143297e217a63e21ce9820",
+      "bytes": 24601
+    },
+    {
+      "source_path": "wwwroot/lib/jquery/LICENSE.txt",
+      "destination_path": "wwwroot/lib/jquery/LICENSE.txt",
+      "git_blob": "599bdf2c721396853b5afae210081dc776985f65",
+      "sha256": "911d138518f2d3bfa1ab8a74f277dd92337ea48f781a3dab2b99721346ee2135",
+      "bytes": 1097
+    },
+    {
+      "source_path": "wwwroot/lib/jquery/dist/jquery.js",
+      "destination_path": "wwwroot/lib/jquery/dist/jquery.js",
+      "git_blob": "fc6c299b73e792ef288e785c22393a5df9dded4b",
+      "sha256": "1fe2bb5390a75e5d61e72c107cab528fc3c29a837d69aab7d200e1dbb5dcd239",
+      "bytes": 288580
+    },
+    {
+      "source_path": "wwwroot/lib/jquery/dist/jquery.min.js",
+      "destination_path": "wwwroot/lib/jquery/dist/jquery.min.js",
+      "git_blob": "c4c6022f2982e8dae64cebd6b9a2b59f2547faad",
+      "sha256": "ff1523fb7389539c84c65aba19260648793bb4f5e29329d2ee8804bc37a3fe6e",
+      "bytes": 89501
+    },
+    {
+      "source_path": "wwwroot/lib/jquery/dist/jquery.min.map",
+      "destination_path": "wwwroot/lib/jquery/dist/jquery.min.map",
+      "git_blob": "7d86eb1694970141b88b52f5b26e6b019f16b590",
+      "sha256": "399548fb0e7b146c12f5ba18099a47d594a970fee96212eee0ab4852f3e56782",
+      "bytes": 137972
+    }
+  ]
+}
